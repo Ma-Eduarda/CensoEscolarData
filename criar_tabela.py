@@ -20,4 +20,5 @@ CREATE TABLE IF NOT EXISTS instituicoes (
 conn.commit()
 conn.close()
 
-print("Tabela criada com sucesso.")
+
+print("Tabela criada!")

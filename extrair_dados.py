@@ -35,4 +35,5 @@ for row in pd.read_csv(caminho_csv, sep=";", encoding="latin1", chunksize=50000)
 
 banco.close()
 
-print("Migração concluída com sucesso!")
+print("Migração concluída!")
+
